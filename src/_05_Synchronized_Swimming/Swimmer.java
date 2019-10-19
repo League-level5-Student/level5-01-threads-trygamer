@@ -18,7 +18,7 @@ public Swimmer(String name) {
 	@Override
 	public void run() {
 		for(int i = 0;i<5;i++) {
-			ss.takeTurn(this);
+			SynchronizedSwimming.takeTurn(this);
 		}
 	}
 }
